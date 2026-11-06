@@ -1,0 +1,45 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files (NEVER COMMIT REAL KEYS)
+.env
+.env*.local
+.env.development
+.env.production
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# exam reference docs & output archives
+PE_demo.docx
+PE_demo.md
+QE190032.docx
+QE190032.md
+*.zip
+/submission
